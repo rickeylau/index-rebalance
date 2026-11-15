@@ -1,0 +1,45 @@
+
+name: Update Index Rebalance
+on:
+  schedule:
+    - cron: '33 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config.json'
+      - 'index_rebalance.py'
+      - 'test_index_rebalance.py'
+      - '.github/workflows/update-calendar.yml'
+permissions:
+  contents: write
+concurrency:
+  group: index-rebalance-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test calendar
+        run: python -m unittest -v
+      - name: Generate index reminders
+        run: python index_rebalance.py
+      - name: Publish calendar
+        run: |
+          set -eu
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add holidays_snapshot.json index-rebalance.ics
+          if git diff --cached --quiet; then
+            echo 'No calendar changes.'
+            exit 0
+          fi
+          git commit -m 'Update index rebalance calendar'
+          git push origin main
