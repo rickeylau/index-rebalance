@@ -1,0 +1,641 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Index Rebalance Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Index Rebalance
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Rule-based SPX and NDX schedule reminders. Verify official ann
+ ouncements.
+BEGIN:VEVENT
+UID:mend-2026-01@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260130T203000Z
+DTEND:20260130T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-02@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260227T203000Z
+DTEND:20260227T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2026-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260313T200000Z
+DTEND:20260313T201500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2026-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260320T193000Z
+DTEND:20260320T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2026-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260323T133000Z
+DTEND:20260323T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260331T193000Z
+DTEND:20260331T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-04@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260430T193000Z
+DTEND:20260430T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-05@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260529T193000Z
+DTEND:20260529T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2026-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260611T200000Z
+DTEND:20260611T201500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2026-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260618T193000Z
+DTEND:20260618T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2026-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260622T133000Z
+DTEND:20260622T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260630T193000Z
+DTEND:20260630T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-07@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260731T193000Z
+DTEND:20260731T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-08@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260831T193000Z
+DTEND:20260831T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2026-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260911T200000Z
+DTEND:20260911T201500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2026-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260918T193000Z
+DTEND:20260918T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2026-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260921T133000Z
+DTEND:20260921T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20260930T193000Z
+DTEND:20260930T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-10@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261030T193000Z
+DTEND:20261030T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-11@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261130T203000Z
+DTEND:20261130T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2026-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261211T210000Z
+DTEND:20261211T211500Z
+SUMMARY:NDX Annual Reconstitution Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2026-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261218T203000Z
+DTEND:20261218T210000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2026-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261221T143000Z
+DTEND:20261221T144500Z
+SUMMARY:NDX Annual Reconstitution Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2026-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20261231T203000Z
+DTEND:20261231T210000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-01@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270129T203000Z
+DTEND:20270129T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-02@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270226T203000Z
+DTEND:20270226T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2027-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270312T210000Z
+DTEND:20270312T211500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2027-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270319T193000Z
+DTEND:20270319T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2027-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270322T133000Z
+DTEND:20270322T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-03@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270331T193000Z
+DTEND:20270331T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-04@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270430T193000Z
+DTEND:20270430T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-05@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270528T193000Z
+DTEND:20270528T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2027-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270610T200000Z
+DTEND:20270610T201500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2027-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270617T193000Z
+DTEND:20270617T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2027-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270621T133000Z
+DTEND:20270621T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-06@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270630T193000Z
+DTEND:20270630T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-07@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270730T193000Z
+DTEND:20270730T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-08@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270831T193000Z
+DTEND:20270831T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2027-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270910T200000Z
+DTEND:20270910T201500Z
+SUMMARY:NDX Quarterly Rebalance Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2027-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270917T193000Z
+DTEND:20270917T200000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2027-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270920T133000Z
+DTEND:20270920T134500Z
+SUMMARY:NDX Quarterly Rebalance Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-09@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20270930T193000Z
+DTEND:20270930T200000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-10@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271029T193000Z
+DTEND:20271029T200000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-11@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271130T203000Z
+DTEND:20271130T210000Z
+SUMMARY:Month-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-ann-2027-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271210T210000Z
+DTEND:20271210T211500Z
+SUMMARY:NDX Annual Reconstitution Announcement (Expected)
+DESCRIPTION:Nasdaq methodology schedules the announcement after the close o
+ f the sixth trading day before effectiveness. Event starts at the close as
+  a reminder\; actual release time can differ. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qclose-2027-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271217T203000Z
+DTEND:20271217T210000Z
+SUMMARY:SPX / NDX Rebalance Close (Expected)
+DESCRIPTION:Rule-based reminder for the closing session before scheduled in
+ dex adjustments\; not a confirmed announcement or a forecast of trading fl
+ ows. If third Friday is closed\, previous session is a planning assumption
+ . Check official notices. S&P 500 share updates are quarterly\; membership
+  changes may occur at any time. Sources: https://www.spglobal.com/spdji/en
+ /documents/methodologies/methodology-sp-us-indices.pdf \; https://www.spgl
+ obal.com/spdji/en/documents/methodologies/methodology-sp-equity-indices-po
+ licies-practices.pdf \; https://indexes.nasdaq.com/docs/Methodology_NDX.pd
+ f
+URL:https://www.spglobal.com/spdji/en/documents/methodologies/methodology-s
+ p-us-indices.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ndx-eff-2027-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271220T143000Z
+DTEND:20271220T144500Z
+SUMMARY:NDX Annual Reconstitution Effective (Expected)
+DESCRIPTION:Rule-based expected effective time at the opening of the first 
+ trading day following the third Friday. Not a confirmation of constituent 
+ changes. Verify Nasdaq notices.
+URL:https://indexes.nasdaq.com/docs/Methodology_NDX.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mend-2027-12@index-rebalance
+DTSTAMP:20261115T000000Z
+DTSTART:20271231T203000Z
+DTEND:20271231T210000Z
+SUMMARY:Quarter-End Rebalance Reminder
+DESCRIPTION:Custom reminder for final regular trading session of the month.
+  Actual institutional flows are not known or guaranteed\; this is not an o
+ fficial index event. Holiday-adjusted using Cboe regular-session calendar.
+URL:https://www.cboe.com/about/hours/us-options/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

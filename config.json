@@ -1,0 +1,8 @@
+{
+  "include_quarterly_close": true,
+  "include_ndx_announcement": true,
+  "include_ndx_effective": true,
+  "include_month_end": true,
+  "include_quarter_end": true,
+  "close_reminder_minutes": 30
+}
